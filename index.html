@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Materiais do Laboratório</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Materiais do Laboratório</h1>
+
+    <input type="text" id="material" placeholder="Digite o material">
+
+    <div class="botoes">
+      <button onclick="adicionarMaterial()">Adicionar</button>
+      <button onclick="removerUltimo()">Remover último</button>
+      <button onclick="contarMateriais()">Contar materiais</button>
+    </div>
+
+    <p id="mensagem"></p>
+
+    <h2>Lista de materiais</h2>
+    <ul id="lista"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
